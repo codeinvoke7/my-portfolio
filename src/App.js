@@ -5,7 +5,7 @@ import { ContactForm, Header, Projects, SkillList } from "./component";
 function App() {
   return (
     <Fragment>
-      <Header />
+      {/* <Header /> */}
       <SkillList />
       <Projects />
       <ContactForm />

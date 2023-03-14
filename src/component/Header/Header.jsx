@@ -14,7 +14,7 @@ const Header = (props) => {
             I'm{" "}
             <span className={`${classes.nameUnderline}`}>Elijah Ndibe.</span>
           </h1>
-          <div className="pt-4" style={{width: "60%"}}>
+          {/* <div className="pt-4" style={{textAlign: "justify"}}>
             <p>
               A web developer who is passionate about crafting pixel-perfect
               websites that are not only aesthetically pleasing but also highly
@@ -23,7 +23,7 @@ const Header = (props) => {
               and intuitive web experiences. Let's work together to bring your
               vision to life!
             </p>
-          </div>
+          </div> */}
           <CallToAction link="https://wa.me/+2348141289176">
         CONTACT ME
       </CallToAction>
