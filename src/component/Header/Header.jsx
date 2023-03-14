@@ -7,14 +7,14 @@ const Header = (props) => {
   return (
     <div className="container">
       <HeaderFooter />
-      <div className="d-flex  justify-content-around flex-column flex-md-row flex-lg-row">
+      <div className="d-flex  justify-content-around flex-column-reverse flex-md-row flex-lg-row">
         <div className=" text-white p-4">
           <h1>Nice to meet you!</h1>
           <h1>
             I'm{" "}
             <span className={`${classes.nameUnderline}`}>Elijah Ndibe.</span>
           </h1>
-          {/* <div className="pt-4" style={{textAlign: "justify"}}>
+          <div className="pt-4" style={{textAlign: "justify"}}>
             <p>
               A web developer who is passionate about crafting pixel-perfect
               websites that are not only aesthetically pleasing but also highly
@@ -23,7 +23,7 @@ const Header = (props) => {
               and intuitive web experiences. Let's work together to bring your
               vision to life!
             </p>
-          </div> */}
+          </div>
           <CallToAction link="https://wa.me/+2348141289176">
         CONTACT ME
       </CallToAction>
