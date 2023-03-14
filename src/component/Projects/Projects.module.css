@@ -1,0 +1,28 @@
+#img{
+    width: 300px;
+    transition: .5s ease;
+    
+}
+.overlay {
+    position: absolute;
+    margin-top: -110px;
+    background: #000000;
+    background: #00000080; /* Black see-through */
+    transition: .9s ease;
+    width: 300px;
+    opacity:0;
+    padding: 0px 10px 10px;
+    text-align: center;
+  }
+
+  .cont:hover .overlay {
+    opacity: 1 !important;
+    transform: scale(1.5);
+  }
+  .cont:hover #img {
+    transform: scale(1.5);
+  }
+
+  .call-to-action{
+    font-size: 16px;
+  }

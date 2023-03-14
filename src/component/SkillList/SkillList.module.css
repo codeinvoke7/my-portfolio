@@ -1,0 +1,8 @@
+/* .skillitem{
+    text-align: center;
+} */
+@media (width <= 576px) {
+    .skillitem{
+    text-align: center;
+}
+}

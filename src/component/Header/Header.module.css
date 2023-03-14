@@ -1,0 +1,7 @@
+.nameUnderline{
+    text-decoration: underline #29e79e;
+    text-underline-offset: .24em;
+}
+.display_img img{
+    border-radius: 48% 52% 49% 51% / 37% 36% 64% 63% 
+}
