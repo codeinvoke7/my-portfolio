@@ -2,6 +2,6 @@
     text-decoration: underline #29e79e;
     text-underline-offset: .24em;
 }
-/* .display_img img{
-    border-radius: 48% 52% 49% 51% / 37% 36% 64% 63% 
-} */
+.display_img img{
+    border-radius: 47% 53% 50% 50% / 34% 33% 67% 66% 
+}
