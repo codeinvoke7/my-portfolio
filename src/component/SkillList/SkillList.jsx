@@ -5,25 +5,25 @@ const SkillList = () => {
     {
       id: 1,
       skill: "HTML",
-      experience: 3,
+      experience: 2,
     },
 
     {
       id: 2,
       skill: "CSS",
-      experience: 3,
+      experience: 2,
     },
 
     {
       id: 3,
       skill: "JavaScript",
-      experience: 3,
+      experience: 2,
     },
 
     {
       id: 4,
       skill: "PHP",
-      experience: 3,
+      experience: 2,
     },
 
     {
@@ -35,13 +35,13 @@ const SkillList = () => {
     {
       id: 6,
       skill: "JQuery",
-      experience: 3,
+      experience: 2,
     },
 
     {
       id: 7,
       skill: "Bootstrap",
-      experience: 3,
+      experience: 2,
     },
   ];
 
